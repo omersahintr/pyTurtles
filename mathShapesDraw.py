@@ -1,8 +1,9 @@
+### MATH SHAPES DRAWING ###
 import turtle
 
 kose = 0
 koseSay = int(input("Köşe Sayısını giriniz: "))
-kenarUzunluk = int(input("Köşe Sayısını giriniz: "))
+kenarUzunluk = int(input("Kenar Uzunluğu giriniz: "))
 
 yazi_tahtasi = turtle.Screen()
 yazi_tahtasi.bgcolor("yellow") #Sayfa arkaplan rengi
@@ -13,7 +14,7 @@ turtle_ins = turtle.Turtle() #turtle çalıştır
 while(True):
     if kose!=koseSay:
         turtle_ins.forward(kenarUzunluk) #100px ileri git
-        turtle_ins.left(180-(((koseSay-2)*180)/koseSay)) #sola X derece aci yap
+        turtle_ins.left(360/koseSay) #sola X derece aci yap
         kose+=1
     else:
         break
