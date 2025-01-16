@@ -7,7 +7,7 @@ shape.title("Black Board - Square in Square") #titled
 
 shape = tur.Turtle() #new objective defined
 shape.color("yellow") #arrow color set
-tur.speed(0) #animation speed value
+tur.speed(0.22) #animation speed value
 
 def square(dim,angle): #define drawing method
     for i in range(4):
