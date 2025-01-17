@@ -28,4 +28,4 @@ for i in range(150): #150 times for loop
 
 
 #tur.done() #turtle has closed
-tur.mainloop() #always running with mainloop
+tur.mainloop() #always running with mainloop non-stop
