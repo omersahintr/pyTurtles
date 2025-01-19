@@ -20,11 +20,8 @@ When the game screen opens, the screen will periodically display different
 to click on turtle symbols that appear and disappear in areas
 work. For each successful click, the Score value is increased by 1.
 When the countdown time is over, the score value written in the
-will give you the number of turtles that you can click on in some way.The parameter values of the game are set and run.
-  When the game screen opens, the screen will periodically display different
-to click on turtle symbols that appear and disappear in areas
-work. For each successful click, the Score value is increased by 1.
-When the countdown time is over, the score value written in the
 will give you the number of turtles that you can click on in some way.
+
+The parameter values of the game are set and run.
 
 Good Luck..
